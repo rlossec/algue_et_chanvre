@@ -1,0 +1,198 @@
+
+/*==================
+ MENU ITEM SECTION
+====================*/
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.option-item {
+    margin-right: 10px; /* Ajustez selon vos préférences de séparation */
+}
+
+#mu-categories {
+  display: inline;
+  float: left;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.mu-categories-area {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+.mu-categories-content {
+  display: inline;
+  float: left;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.mu-categories {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+
+.mu-categories li {
+  display: inline-block;
+  float: none;
+}
+
+.mu-categories li a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  border-radius: 0;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 15px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.mu-categories li a:hover,
+.mu-categories .active a,
+.mu-categories .active a:hover,
+.mu-categories .active a:focus {
+  background-color: #FFF;
+}
+
+.mu-tab-content-area {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.mu-tab-content-left {
+  display: inline;
+  float: left;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.mu-tab-content-right {
+  display: inline;
+  float: left;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.mu-menu-item-nav li {
+  border-bottom: 1px dashed #ccc;
+  display: inline;
+  float: left;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.mu-menu-item-nav li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.mu-menu-item-nav li .media .media-left {
+  width: 110px;
+  height: 110px;
+}
+
+.mu-menu-item-nav li .media .media-left a,
+.mu-menu-item-nav li .media .media-left a img {
+  display: block;
+  width: 110px;
+  height: 110px;
+}
+
+.mu-menu-item-nav li .media .media-body .media-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.mu-menu-item-nav li .media .media-body .media-heading a {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.mu-menu-item-nav li .media .media-body .mu-menu-price {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  line-height: 20px;
+}
+
+.mu-menu-item-nav li .media .media-body p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+
+/*==================
+Algues section
+====================*/
+
+#mu-algues, #mu-algues-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/algues.jpg");
+  float: left;
+  padding-top: 40px;
+  width: 100%;
+  height: 180px;
+}
+
+.mu-algues-area {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+
+
+
+
+.mu-algues-area .mu-title h2 {
+  color: #fff;
+}
+
+.mu-algues-content {
+  display: inline;
+  float: left;
+  margin-top: 20px;
+  padding: 0 100px;
+  width: 100%;
+}
+
+.mu-algues-content h3 {
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.mu-algues-content p {
+  color: #fff;
+  letter-spacing: 0.5px;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.mu-algues-left {
+  display: inline;
+  float: left;
+  margin-top: 30px;
+  width: 100%;
+}
